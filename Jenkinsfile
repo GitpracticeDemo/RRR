@@ -1,5 +1,5 @@
 pipeline {
-    agent any { label 'JDK-17' }
+    agent { label 'JDK-17' }
     stages {
         stage(giturl) {
             steps {
